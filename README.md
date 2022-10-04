@@ -1,2 +1,6 @@
 # landing-page
-Css Flexbox Assignment
+CSS Flexbox Assignment
+
+CSS and Flexbox practice
+
+Create and format a seudo website including header, footer, pictures, etc. using learned skills of HTML, CSS, and Flexbox.
