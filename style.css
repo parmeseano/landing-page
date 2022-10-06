@@ -9,6 +9,7 @@
 body {
    font-family: 'Roboto', sans-serif;
    font-size: 18px;
+   line-height: 1.5;
 }
 
 ul {
@@ -30,9 +31,11 @@ ul {
 .navbar .logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
-.navbar a {
+.navbar a,
+.header p {
     color: #e5e7eb;
     font-size: 18px;
     text-decoration: none;
@@ -51,4 +54,56 @@ ul {
 
 .navbar ul li {
     margin-left: 20px;
+}
+
+.header {
+    background-color: #1f2937;
+    min-height: 500px;
+    
+}
+
+.header h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    line-height: 1.2;
+}
+
+.header p {
+    margin-bottom: 10px;
+}
+
+.header button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: none;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header .img {
+    background-color: gray;
+    color: #f9faf8;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+}
+
+.header div {
+    flex-basis: 50%;
+    
+}
+
+.header .container {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
 }
