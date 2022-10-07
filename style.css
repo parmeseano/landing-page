@@ -107,3 +107,51 @@ ul {
     align-items: center;
     justify-content: space-between; 
 }
+
+.boxes {
+    background-color: white;
+    min-height: 500px;
+}
+
+.boxes h1 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.boxes p {
+    color: gray;
+    font-size: 18px;
+    text-align: center;
+}
+
+.boxes .box {
+    height: 175px;
+    width: 175px;
+    border: 5px solid #3882f6;
+    border-radius: 18px;
+}
+
+.boxes .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    height: 500px;
+}
+
+.boxes .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.boxes .infographic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 175px;
+}
