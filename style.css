@@ -230,3 +230,16 @@ ul {
     border-radius: 10px;
 }
 
+.footer {
+    background-color: #1f2937;
+    min-height: 100px;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
